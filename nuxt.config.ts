@@ -4,6 +4,7 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   ssr: false,
   app: {
-    baseURL: '/hanzoz.github.io/'
+    baseURL: '/hanzoz.github.io/',
+    buildAssetsDir: '/_nuxt/',
   }
 })
